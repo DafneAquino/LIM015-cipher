@@ -173,3 +173,7 @@ Hacemos click en el boton "descifrar" y nos mostrara el mensaje descifrado.
 Para cifrar y/o descifrar un nuevo mensaje hacemos click en el botón limpiar para que se borre el input de texto y numérico que anteriormente hemos puesto.
 ![](funcionalidad/limpiarDescifrado.JPG)
 ![](funcionalidad/limpiarCifrado.JPG)
+
+## 6. Autora
+
+Dafne Aquino Manyari - LIM015 Laboratoria.
