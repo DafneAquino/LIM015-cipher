@@ -131,7 +131,7 @@ Se pensó como usuario final a los trabajadores encargados del envío de informe
 
 El proceso de la interfaz para definir el producto final se llevó a cabo en lápiz y papel. El prototipo final fue el siguiente:
 
-![](prototipo/MessageEncryption.jpg)
+![](prototipo/MessageEncryption.jpg) 
 
 
 * Usuarios del producto: Personal adminstrativo de ONG's que manejan información reservada de su organización.
