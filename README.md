@@ -156,20 +156,20 @@ La interfaz permite al usuario:
 A continuación se mostrará los pasos que un usuario debe seguir para alcanzar los objetivos predefinidos de este aplicativo web y a través de estos se demostrará la funcionalidad del producto:
 
 Como pantalla de inicio se muestra la pestaña de "Cifrado" como predeterminada, donde nos muestra 1 input de texto para ingresar el mensaje que queremos cifrar, un input numérico para ingresar el número de desplazamiento (_offset_) y un cuadro de retorno donde nos mostrará el mensaje ya cifrado.
-![](funcionalidad\pantallaDeInicio.JPG)
+![](funcionalidad/pantallaDeInicio.JPG)
 
 Ingresamos el mensaje que queremos cifrar en el input de texto y de la misma manera ingresamos la cantidad de desplazamientos por el que queremos cifrar nuestro mensaje.
-![](funcionalidad\mensajeAcifrar.JPG)
+![](funcionalidad/mensajeAcifrar.JPG)
 
 Posteriormente al hacer click en el boton "cifrar", nos dará como resultado el mensaje cifrado.
-![](funcionalidad\cifrado.JPG)
+![](funcionalidad/cifrado.JPG)
 
 Copiamos el mensaje cifrado para que nos sirva como mensaje a descifrar, nos vamos a la pestaña de "Descifrado" , pegamos el texto cifrado y el mismo número de desplazamientos por el que fue cifrado.
-![](funcionalidad\mensajeAdescifrar.JPG)
+![](funcionalidad/mensajeAdescifrar.JPG)
 
 Hacemos click en el boton "descifrar" y nos mostrara el mensaje descifrado.
-![](funcionalidad\descifrado.JPG)
+![](funcionalidad/descifrado.JPG)
 
 Para cifrar y/o descifrar un nuevo mensaje hacemos click en el botón limpiar para que se borre el input de texto y numérico que anteriormente hemos puesto.
-![](funcionalidad\limpiarDescifrado.JPG)
-![](funcionalidad\limpiarCifrado.JPG)
+![](funcionalidad/limpiarDescifrado.JPG)
+![](funcionalidad/limpiarCifrado.JPG)
