@@ -1,14 +1,74 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+
+<head>
+  <meta charset="utf-8">
+  <title>Message Encryption</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--  CAJA DE CIFRADO -->
+  <section id="contentCipher" class="content">
+    <!--CABECERA-->
+    <header class="content-header">
+      <h1>Message Encryption</h1>
+      <p><i>Proteja información reservada de su organización</i></p>
+    </header>
+
+    <!--LINK CIFRAR Y DESCIFRAR-->
+    <!-- href="#" es para que  al hacer click nos lleve a una posición de la página-->
+
+    <div id="cifrar-descifrar" class="links_cifradoCesar">
+      <a href="#" id="link-cifrado" class="link_activo">Cifrado</a>
+      <a href="#" id="link-descifrado">Descifrado</a>
     </div>
-    <script src="index.js" type="module"></script>
-  </body>
+
+
+    <!--PESTAÑA CIFRAR -->
+
+    <section id="contenido-cifrar" class="msg-style display_block">
+      <p>Ingrese el mensaje:</p>
+      <textarea id="mensajeAcifrar" class="estiloCaja" placeholder="Escriba el mensaje..."></textarea>
+
+      <div class="desplazamiento">
+        <label class="numeroDesplazamiento">Ingrese N° de desplazamientos: </label>
+        <input type="number" id="cantidadDesplazamientoC" class="cantidadDesplazamiento">
+      </div>
+      <button id="btnCifrar" class="btnCode"> Cifra el mensaje </button>
+      <div id="msg-cifrado" class="msg-check">
+        <p id="msg-cifrado-check"></p>
+      </div>
+      <button id="btnLimpiarC" class="btnLimpiar">Limpiar</button>
+    </section>
+
+
+    <!--PESTAÑA DESCIFRAR -->
+
+    <section id="contenido-descifrar" class="msg-style display_none">
+      <p>Ingrese el mensaje:</p>
+      <textarea id="mensajeAdescifrar" class="estiloCaja" placeholder="Escriba el mensaje..."></textarea>
+
+      <div class="desplazamiento">
+        <label class="numeroDesplazamiento">Ingrese N° de desplazamientos: </label>
+        <input type="number" id="cantidadDesplazamientoD" class="cantidadDesplazamiento">
+      </div>
+      <button id="btnDescifrar" class="btnCode"> Descifra el mensaje </button>
+      <div id="msg-descifrado" class="msg-check">
+        <p id="msg-descifrado-check"></p>
+      </div>
+      <button id="btnLimpiarD" class="btnLimpiar">Limpiar</button>
+
+    </section>
+  </section>
+
+  <footer>
+    <p> &#169 Message Encryption </p>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
